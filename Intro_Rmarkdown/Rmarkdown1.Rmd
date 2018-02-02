@@ -4,7 +4,7 @@ author: "Semillero de R"
 date: "Escuela de estadística "
 output: 
   beamer_presentation:
-          theme: "AnnArbor"
+          theme: "Berkeley"
           colortheme: "dolphin"
           fonttheme: "structurebold"
 ---
