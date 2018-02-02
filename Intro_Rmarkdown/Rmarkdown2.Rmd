@@ -43,6 +43,10 @@ Markdown es un lenguaje de marcado que facilita la aplicación de formato a un t
 
 R Markdown es un formato que permite una fácil creación de documentos, presentaciones dinámicas y informes de R. Markdown es un formato de sintaxis simple para crear documentos en HTML, PDF, y Word.
 
+Video ¿que es R Markdown?:
+
+https://www.youtube.com/watch?v=HqrRdRrmatk
+
 ## R Markdowk (2)
 
 R Markdown admite docenas de formatos de salida estáticos y dinámicos, incluidos HTML, PDF, MS Word, Beamer, diapositivas HTML5, folletos al estilo Tufte, libros, paneles, aplicaciones brillantes, artículos científicos, sitios web y más.
@@ -83,6 +87,8 @@ https://cran.r-project.org/mirrors.html
 
 - install.packages("rmarkdown")
 
+- install.packages("knitr")
+
 ###MikTex
 
 https://miktex.org/download
@@ -116,6 +122,10 @@ https://miktex.org/download
 Con el botón señalado comienza la construcción del archivo, también es posible cambiar el formato de salida dando click sobre la pestaña de este botón.
 
 ![](RM5.jpg)
+
+## Como crear un documento de R Markdown (6)
+
+![](RM6.jpg)
 
 ## Tutoriales
 
