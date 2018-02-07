@@ -1,0 +1,55 @@
+---
+title: "Lección 3 de Shiny"
+author: "Semillero de R UNAL"
+date: ' '
+output:
+  ioslides_presentation:
+    fig_height: 2
+    fig_retina: null
+    fig_width: 3.5
+    highlight: espresso
+    incremental: yes
+    logo: logo_unal.png
+    transition: faster
+    widescreen: yes
+  beamer_presentation: default
+  slidy_presentation: default
+---
+
+## Url de la presentación
+Para ver la presentación visitar:
+
+[https://rpubs.com/fhernanb/lesson3_shiny](https://rpubs.com/fhernanb/lesson3_shiny)
+
+## Apps con widgets
+
+<center><img src="basic-widgets.png" height="550px" /></center>
+
+## Lista de widgets básicos
+
+<center><img src="listawidgets.png" height="400px" /></center>
+
+## Vamos a replicar la app en nuestros computadores
+
+1. Crear el archivo ui.R con este [contenido](https://www.dropbox.com/s/1j2v30sjjymsagn/ui.R?dl=0)
+2. Crear el archivo server.R con este [contenido](https://www.dropbox.com/s/3lw9k19ucn8d307/server.R?dl=0)
+3. Correr la aplicación
+4. Analizar el contenido del archivo ui.R
+
+## Vamos a responder las siguiente preguntas
+
+1. Para que sirve la función `fluidRow`?
+2. Para que sirve la función `column`?
+3. Cómo puedo recuperar la información que ingresó el usuario?
+
+## Vamos a crear una aplicacion
+
+<center><img src="niño-escribiendo.jpg" height="400px" /></center>
+
+## Lección con detalles
+
+La lección con más detalles puede ser encontrada en:
+
+[http://shiny.rstudio.com/tutorial/lesson3/](http://shiny.rstudio.com/tutorial/lesson2/)
+
+# Muchas gracias

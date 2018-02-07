@@ -1,0 +1,243 @@
+---
+title: "Lección 2 de Shiny"
+author: "Semillero de R UNAL"
+date: ' '
+output:
+  ioslides_presentation:
+    fig_height: 2
+    fig_retina: null
+    fig_width: 3.5
+    highlight: espresso
+    incremental: yes
+    logo: logo_unal.png
+    transition: faster
+    widescreen: yes
+  beamer_presentation: default
+  slidy_presentation: default
+---
+
+## Url de la presentación
+Para ver la presentación visitar:
+
+[https://rpubs.com/fhernanb/lesson2_shiny](https://rpubs.com/fhernanb/lesson2_shiny)
+
+## ¿Qué aprendimos en la lección 1?
+- Shiny es un paquete de R.
+- Shiny permite convertir código de R en apps (html).
+- Partes de una aplicación.
+- Aprendimos para que sirven **ui.R** y **server.R**.
+- Construimos la primera aplicación.
+
+## Ejemplo de la mínima app
+
+Es posible crear la **aplicación mínima** (que no hace nada) para experimentar con la estética. A continuación el contenido de los archivos ui.R y server.R:
+
+**ui.R**
+```{r, echo=T, eval=F}
+library(shiny)
+shinyUI(fluidPage(
+))
+```
+
+**server.R**
+```{r, echo=T, eval=F}
+library(shiny)
+shinyServer(function(input, output) {
+})
+```
+
+## Su turno
+
+<div class="red2">
+Construya **usted mismo** la aplicación mínima.
+</div>
+
+**ui.R**
+```{r, echo=T, eval=F}
+library(shiny)
+shinyUI(fluidPage(
+))
+```
+
+**server.R**
+```{r, echo=T, eval=F}
+library(shiny)
+shinyServer(function(input, output) {
+})
+```
+
+## Resultado
+
+<center><img src="http://www.knowledgebrain.com/NothingImages/Nothing_512_512.jpg" height="500px" /></center>
+
+## Su turno
+
+Sustituya el archivo **ui.R** por lo siguiente:
+
+**ui.R**
+```{r, echo=T, eval=F}
+library(shiny)
+shinyUI(fluidPage(
+  titlePanel("Titulo de aplicacion"),
+  sidebarLayout(
+  sidebarPanel("Barra lateral"),
+  mainPanel("Panel principal")
+  )
+))
+
+```
+
+## Resultado
+
+\centering
+![Resultado](fig/fig1.png)
+
+## Su turno
+
+Sustituya el archivo **ui.R** por lo siguiente:
+
+**ui.R**
+```{r, echo=T, eval=F}
+library(shiny)
+shinyUI(fluidPage(
+  titlePanel("Titulo de la aplicacion"),
+  sidebarLayout(position = "right",
+                sidebarPanel("Barra lateral"),
+                mainPanel("Panel principal")
+  )
+))
+```
+
+## Resultado
+
+\centering
+![Resultado](fig/fig2.png)
+
+## Contenido html
+
+\centering
+![Resultado](fig/fig3.png)
+
+
+## Su turno
+Sustituya el archivo **ui.R** por lo siguiente:
+```{r, echo=T, eval=F}
+shinyUI(fluidPage(
+  titlePanel( strong("My Shiny App") ),
+  sidebarLayout(
+    sidebarPanel( em("Sidebar panel") ),
+    mainPanel(
+      h1("First level title with h1"),
+      h2("Second level title with h2"),
+      h3("Third level title with h3"),
+      h4("Fourth level title with h4"),
+      h5("Fifth level title with h5"),
+      h6("Sixth level title with h6"),
+      h1(em("Text obtained with h1 and then em"))
+    )
+  )
+))
+```
+
+## Resultado
+
+![Resultado](fig/fig4.png)
+
+## Su turno
+Sustituya el archivo **ui.R** por el código mostrado abajo. 
+
+```{r echo=T, eval=F, mysize=TRUE, size='\\tiny'}
+library(shiny)
+shinyUI(fluidPage(
+  titlePanel("Mi aplicacion de prueba"),
+  sidebarLayout(
+    sidebarPanel(),
+    mainPanel(
+      p("p creates a paragraph of text."),
+      p("A new p() command starts a new paragraph.", 
+        style = "font-family: 'times'; font-si16pt"),
+      strong("strong() makes bold text."),
+      em("em() creates italicized (i.e, emphasized) text."),
+      br(),
+      code("code displays your text similar to computer code"),
+      p("This is web page", a(href="", "click here"), "to visit it.")
+    ))
+))
+```
+
+## Resultado
+
+![Resultado](fig/fig5.png)
+
+
+## ¿Cómo incluir una imagen en la app?
+
+Se deben seguir los siguientes pasos:
+
+1. Crear una carpeta con el nombre **www**.
+2. La carpeta **www** debe estar en la misma carpeta donde están los archivos **ui.R** y **server.R**.
+3. Guardar en la carpeta **www** la imagen a insertar.
+4. Usar la función **img** para incluir la imagen.
+5. Ejemplo: `img(src="logo_unal.png", height = 300, width = 520)`.
+
+
+## Su turno
+Sustituya el archivo **ui.R** por el código mostrado abajo. 
+
+```{r echo=T, eval=F, mysize=TRUE, size='\\tiny'}
+library(shiny)
+shinyUI(fluidPage(
+  titlePanel("My Shiny App"),
+  sidebarLayout(
+    sidebarPanel(
+      img(src="http://goo.gl/pbajEu",height = 200, width = 320)
+    ),
+    mainPanel(
+      img(src="http://goo.gl/w1VNsL", height = 300, width = 520)
+    )
+  )
+))
+```
+
+## Resultado
+
+\centering
+![Resultado](fig/fig6.png)
+
+## Su turno
+
+<div class="green">
+Construir una aplicación que tenga una apariencia como la mostrada a continuación con la distribución asignada.
+</div>
+
+## 
+\centering
+<img src="fig/appZAGA.png" width="910px" />
+
+
+## Manos a la obra
+
+<center><img src="http://www.brightintegrasi.com/wp-content/uploads/2015/04/programmer1.jpg" height="500px" /> </center>
+
+## Ayuda
+
+A continuación usted podrá encontrar los enlaces a los archivos:
+
+* Archivo [ui.R](https://github.com/fhernanb/semilleroApps/blob/master/ZAGA/ui.R)
+* Archivo [server.R](https://github.com/fhernanb/semilleroApps/blob/master/ZAGA/server.R)
+
+De click sobre el botón **raw** para acceder al código de los archivos.
+
+## Actividad final
+
+Enviar al correo semillerorunal@gmail.com los dos archivos ui y server con el asunto: distribución "la que fue asignada".
+
+<center><img src="http://c279160.r60.cf1.rackcdn.com/assets/blog_post/meta_og_image/81/direct_mailman.jpg" height="450px" /> </center>
+
+## Lección con detalles
+
+La lección con más detalles puede ser encontrada en:
+
+[http://shiny.rstudio.com/tutorial/lesson2/](http://shiny.rstudio.com/tutorial/lesson2/)
+
+# Muchas gracias

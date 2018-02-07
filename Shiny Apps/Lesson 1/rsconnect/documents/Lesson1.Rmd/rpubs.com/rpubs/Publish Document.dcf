@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+bundleId:
+        https://api.rpubs.com/api/v1/document/124274/d793ad01588a417d820fffbe8a5d6574
+url: http://rpubs.com/fhernanb/124274
+when: 1457113293.1478
