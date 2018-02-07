@@ -1,10 +1,13 @@
 ---
-title: "Introducción Rmarkdown"
-author: "Semillero de R"
-date: "Escuela de estadística "
+title: "Introducción R Markdown"
+author: |
+  | Semillero de R,
+  | Escuela de Estadística,
+  | Universidad Nacional de Colombia,
+  | sede Medellín
 output: 
   beamer_presentation:
-          theme: "AnnArbor"
+          theme: "Luebeck"
           colortheme: "dolphin"
           fonttheme: "structurebold"
 ---
@@ -13,43 +16,51 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 ## ¿Qué es R?
-![](R.jpg)
+![Logo de R.](R.jpg)
 
-## Lenguaje de programacion R
+## Lenguaje de programación R
 
 R es un conjunto integrado de funciones para manejo de datos, cálculo y gráficos.
 
-- Comandos para manejar y almacenar conjuntos de datos
+- Comandos para manejar y almacenar conjuntos de datos,
 - Operadores para llevar a cabo cálculos con vectores y matrices
 - Comandos para llevar a cabo diversos análisis de datos
-- Comandos para gráficos
-- Un lenguaje de programación especialmente adaptado a cálculos estadísticos
+- Comandos para gráficos,
+- Un lenguaje de programación especialmente adaptado a cálculos estadísticos.
 
-La aplicabilidad de R se puede extender mediante paquetes de funciones. La distribución básica contiene aproximadamente 25 paquetes.
+La aplicabilidad de R se puede extender mediante paquetes de funciones.
 
 ## ¿Que es Markdown?
 
-![](M.jpg)
+![Logo de Markdown.](M.jpg)
 
 ## Markdown
 
-Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle, también podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino.
+Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres. 
 
-## ¿Qué es R Markdowk?
 
-![](RM.jpg)
+## ¿Pero qué es en realidad Markdown?
 
-## R Markdowk (1)
+![https://www.youtube.com/watch?v=TtSWo2nbzAk](video.jpg)
 
-R Markdown es un formato que permite una fácil creación de documentos, presentaciones dinámicas y informes de R. Markdown es un formato de sintaxis simple para crear documentos en HTML, PDF, y Word.
+## Markdown Quick Reference
 
-Video ¿que es R Markdown?:
+![Ayuda sobre Markdown en Rstudio.](helpMarkdown.png)
 
-https://www.youtube.com/watch?v=HqrRdRrmatk
 
-## R Markdowk (2)
 
-R Markdown admite docenas de formatos de salida estáticos y dinámicos, incluidos HTML, PDF, MS Word, Beamer, diapositivas HTML5, folletos al estilo Tufte, libros, paneles, aplicaciones brillantes, artículos científicos, sitios web y más.
+## ¿Qué es R Markdown?
+
+![R y Markdown.](amigos.png)
+
+## What is R Markdown? 
+
+![https://www.youtube.com/watch?v=HqrRdRrmatk](video.jpg)
+
+## ¿Qué se puede crear con R Markdown?
+
+![Tipos de documentos que se pueden crear con R Markdown.](RM.jpg)
+
 
 ## R Markdowk (3)
 
@@ -69,10 +80,10 @@ Se puede transformar un archivo R Markdown de dos maneras:
 
 Se debe tener instalado los siguientes programas:
 
-- La versión más reciente de R.
+- R.
 - RStudio.
-- Instalar el paquete knitr, rmarkdown.
-- Conocimientos en markdown.
+- Instalar los paquetes `knitr` y `rmarkdown`.
+- Saber markdown.
 - MikTex (si se desea crear documentos en formato PDF)
 
 ## Instalación 
