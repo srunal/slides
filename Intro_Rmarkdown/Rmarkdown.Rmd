@@ -1,5 +1,5 @@
 ---
-title: "Introducción R Markdown"
+title: "Introducción a R Markdown"
 author: |
   | Semillero de R,
   | Escuela de Estadística,
@@ -62,19 +62,20 @@ Markdown es un lenguaje de marcado que facilita la aplicación de formato a un t
 ![Tipos de documentos que se pueden crear con R Markdown.](RM.jpg)
 
 
-## R Markdowk (3)
+## Partes de un archivo .Rmd
 
-Un documento de R Markdown está escrito en markdown y contiene fragmentos de código R incrustado, como el documento a continuación.
+![Partes de un archivo .Rmd](ejemplo1.png)
 
-![](img1.jpg)
-
-## R Markdowk (4)
-
-Se puede transformar un archivo R Markdown de dos maneras:
+## Se puede transformar un archivo R Markdown de dos maneras:
 
 1. knit (tejer): puede tejer el archivo. El paquete rmarkdown llamará al paquete knitr. knitr ejecutará cada fragmento de código R en el documento y anexará los resultados del código al documento junto al fragmento de código. Este flujo de trabajo ahorra tiempo y facilita informes reproducibles.
 
 2. convert (convertir): Puede convertir el archivo. El paquete rmarkdown usará el programa pandoc para transformar el archivo a un formato nuevo. Por ejemplo, puede convertir su archivo .Rmd en un archivo HTML, PDF o Microsoft Word. Incluso puede convertir el archivo en una presentación de diapositivas HTML5 o PDF. rmarkdown conservará el texto, los resultados del código y el formato contenidos en su archivo .Rmd original
+
+## Botón knit
+
+![Botón knit.](ejemplo2.png)
+
 
 ## Requerimientos
 
@@ -134,16 +135,11 @@ Con el botón señalado comienza la construcción del archivo, también es posib
 
 ![](RM5.jpg)
 
-## Como crear un documento de R Markdown (6)
-
-![](RM6.jpg)
 
 ## Tutoriales
 
 - https://www.youtube.com/watch?v=OrYLHgjuD3U
 - https://www.youtube.com/watch?v=YXSp6VfZaUk
-
-
 
 ## Cibergrafia
 
