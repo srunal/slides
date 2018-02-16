@@ -1,0 +1,64 @@
+---
+title: "Creación de páginas web con R Markdown"
+author: |
+  | Semillero de R,
+  | Escuela de Estadística,
+  | Universidad Nacional de Colombia,
+  | sede Medellín
+output:
+  beamer_presentation:
+    includes:
+      in_header: mystyle1.tex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Pasos a seguir para crear una página web
+1. Tener la última versión de R instalada.
+2. Tener la última versión de Rstudio instalada.
+2. Instalar Git.
+1. Crear una cuenta en GitHub.
+2. Crear un repositorio en GitHub para la página web.
+
+## ¿Qué es Git?
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+![Logo de git.](git.png)
+
+## Instalación de Git
+Para instalar Git vea el siguiente video.
+
+![https://www.youtube.com/watch?v=gCPu7EWsWz4](video.jpg)
+
+## ¿Qué es GitHub?
+It is a web-based hosting service for version control using git.
+
+![Logo de GitHub.](GitHub.jpg)
+
+## Creación de una cuenta en GitHub
+Para crear una cuenta en GitHub vea el siguiente video.
+
+![https://www.youtube.com/watch?v=ezxRcdJ8glM](video.jpg)
+
+## ¿Qué es un repositorio (repo) en GitHub?
+Es un espacio en GitHub para almacenar los documentos de un proyecto específico.
+
+![Ilustración de un repositorio](repository.jpg)
+
+## Creación de un repositorio (repo) en GitHub
+Para crear un repo en GitHub vea el siguiente video.
+
+![https://www.youtube.com/watch?v=LR5BYZjuXMU](video.jpg)
+
+
+
+
+
+
+
+
+
+
