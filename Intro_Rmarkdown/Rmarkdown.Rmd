@@ -5,11 +5,10 @@ author: |
   | Escuela de Estadística,
   | Universidad Nacional de Colombia,
   | sede Medellín
-output: 
+output:
   beamer_presentation:
-          theme: "Luebeck"
-          colortheme: "dolphin"
-          fonttheme: "structurebold"
+    includes:
+      in_header: mystyle1.tex
 ---
 
 ```{r setup, include=FALSE}
