@@ -21,7 +21,18 @@ knitr::opts_chunk$set(echo = FALSE)
 2. Tener la última versión de Rstudio instalada.
 2. Instalar Git.
 1. Crear una cuenta en GitHub.
+1. Configurar Git para que converse con GitHub.
 2. Crear un repositorio en GitHub para la página web.
+
+## Ejemplos de páginas creadas con R Markdown
+Abajo hay una lista de páginas web creadas con R Markdown, explórelas para que vea las posibilidades.
+
+1. [Nathaniel D. Phillips](https://ndphillips.github.io/)
+2. [Florian Privé](https://privefl.github.io/)
+3. [Documentación del paquete visreg](http://pbreheny.github.io/visreg/)
+4. [Robert Mitchell](http://robertmitchellv.com/index.html)
+5. [Nick Strayer](http://nickstrayer.me/)
+9. [Página del Semillero de R](https://srunal.github.io/)
 
 ## ¿Qué es Git?
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
@@ -52,13 +63,5 @@ Es un espacio en GitHub para almacenar los documentos de un proyecto específico
 Para crear un repo en GitHub vea el siguiente video.
 
 ![https://www.youtube.com/watch?v=LR5BYZjuXMU](video.jpg)
-
-
-
-
-
-
-
-
 
 
