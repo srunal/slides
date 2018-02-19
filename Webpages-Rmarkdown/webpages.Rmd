@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 2. Tener la última versión de Rstudio instalada.
 2. Instalar Git.
 1. Crear una cuenta en GitHub.
-1. Configurar Git para que converse con GitHub.
+1. Configurar Git y GitHub en Rstudio.
 2. Crear un repositorio en GitHub para la página web.
 
 ## Ejemplos de páginas creadas con R Markdown
@@ -42,7 +42,7 @@ Git is a free and open source distributed version control system designed to han
 ## Instalación de Git
 Para instalar Git vea el siguiente video.
 
-![https://www.youtube.com/watch?v=gCPu7EWsWz4](video.jpg)
+![https://www.youtube.com/watch?v=gCPu7EWsWz4](instalacion_git.jpg)
 
 
 ## ¿Qué es GitHub?
@@ -55,14 +55,21 @@ Para crear una cuenta en GitHub vea el siguiente video.
 
 ![https://www.youtube.com/watch?v=ezxRcdJ8glM](video.jpg)
 
-## ¿Qué es un repositorio (repo) en GitHub?
+## ¿Qué es un repositorio en GitHub?
 Es un espacio en GitHub para almacenar los documentos de un proyecto específico.
 
 ![Ilustración de un repositorio](repository.jpg)
 
-## Creación de un repositorio (repo) en GitHub
-Para crear un repo en GitHub vea el siguiente video.
+## Creación de un repositorio GitHub
+Para crear un repositorio en GitHub vea el siguiente video.
 
-![https://www.youtube.com/watch?v=LR5BYZjuXMU](video.jpg)
+![https://youtu.be/JN6rzv4zSJ4](primer_repo.jpg)
 
+## Creación de una página web alojada en GitHub
+Para crear una página web alojada en GitHub vea el siguiente video.
 
+![https://youtu.be/JxsreeFsu8g](crear_pag.jpg)
+
+## Listo
+
+![Homero feliz](homero.png)
