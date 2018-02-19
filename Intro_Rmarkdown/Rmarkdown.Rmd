@@ -52,6 +52,10 @@ Markdown es un lenguaje de marcado que facilita la aplicación de formato a un t
 
 ![R y Markdown.](amigos.png)
 
+## Logo de R Markdown
+
+![Logo de R Markdown](rmarkdown.png)
+
 ## What is R Markdown? 
 
 ![https://www.youtube.com/watch?v=HqrRdRrmatk](video.jpg)

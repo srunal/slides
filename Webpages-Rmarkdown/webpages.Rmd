@@ -44,6 +44,7 @@ Para instalar Git vea el siguiente video.
 
 ![https://www.youtube.com/watch?v=gCPu7EWsWz4](video.jpg)
 
+
 ## ¿Qué es GitHub?
 It is a web-based hosting service for version control using git.
 
